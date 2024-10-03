@@ -3,12 +3,12 @@ package fr.boucles;
 public class ExerciceBoucleBase {
     public static void main(String[] args) {
         // Boucle qui affiche les nombres de 0 à 9
-        for(int i = 0; i < 10; i++) {
+        for(int i = 0; i < 11; i++) {
             System.out.println(i);
         }
 
         // Boucle qui affiche "Tunez Geoffroy" 20 fois
-        for(int i = 0; i < 20; i++) {
+        for(int i = 0; i < 21; i++) {
             System.out.println("Tunez Geoffroy\n");
         }
 
@@ -18,7 +18,7 @@ public class ExerciceBoucleBase {
         }
 
         // Boucle qui affiche "i" pour chaque nombre impair de 1 à 99
-        for(int i = 1; i < 99; i += 2) {
+        for(int i = 1; i < 101; i += 2) {
             System.out.println(i);
         }
     }
